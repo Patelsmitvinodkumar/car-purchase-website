@@ -1,0 +1,146 @@
+@media (max-width:770px) {
+    ul .homen {
+        margin-left: 60vh;
+    }
+
+    /*       Home Section      */
+    #home {
+        width: 200vh;
+    }
+
+    .heading {
+        padding-left: 22vh;
+    }
+
+    p {
+        margin-left: 14vh;
+    }
+
+    /*  model  */
+    #model {
+        width: 200vh;
+    }
+
+    /*     Book Drive Demo     */
+    #book {
+        width: 200vh;
+    }
+
+    /*  contact us  */
+    #contact {
+        width: 200vh;
+    }
+
+    /*  Footer  */
+    #footer {
+        width: 200vh;
+    }
+    .a1t {
+        padding-left: 0px;
+    }
+    .a2t {
+        
+        padding-left: 25vh;
+    }
+    .logo {
+        padding-left: 26vh;
+    }
+}
+@media (max-width:450px)
+{
+    /*       Home Section      */
+    .heading {
+        font-size: 12vh;
+        padding-left: 55vh;
+        padding-top: 9vh;
+    }
+
+    p {
+        padding-left: 30vh;
+        font-size: 3vh;
+    }
+
+    /*    model section    */
+    .xc40text {
+        font-size: 5vh;
+    }
+    .xc40rtext {
+        font-size: 4.5vh;
+    }
+    
+    #ele {
+        font-size: 4.5vh;
+    }
+    .xc60text {
+        
+        font-size: 5vh;
+    }
+    .xc90text {
+        
+        font-size: 5vh;
+    }
+    .s90text {
+        font-size: 5vh;
+    }
+    
+    /*     Book Drive Demo     */
+    input {
+        font-size: 4vh;
+    }
+    select {
+        font-size: 3.5vh;
+    }
+}
+@media (min-width:771px) and (max-width:1160px)
+{
+    ul .homen {
+        margin-left: 55vh;
+    }
+    #home {
+        width: 200vh;
+    }
+    .heading {
+        padding-left: 22vh;
+    }
+
+    p {
+        margin-left: 14vh;
+    }
+    /*  model  */
+    #model {
+        width: 200vh;
+    }
+     /*     Book Drive Demo     */
+     #book {
+        width: 200vh;
+    }
+
+    /*  contact us  */
+    #contact {
+        width: 200vh;
+    }
+    /*  Footer  */
+    #footer {
+        width: 200vh;
+    }
+    .a1t {
+        padding-left: 0px;
+    }
+    .a2t {
+        
+        padding-left: 25vh;
+    }
+    .logo {
+        padding-left: 26vh;
+    }
+}
+@media (min-width:804px) and (max-width:1145px)
+{
+    .heading {
+        padding-left: 10vh;
+    }
+
+    p {
+        margin-left: 5vh;
+    }
+}

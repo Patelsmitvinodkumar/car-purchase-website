@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.test {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 0px;
+    margin-left: 96vh;
+    text-align: center;
+}
+
+.auto {
+    font-size: 40px;
+    text-align: center;
+}
+
+.con {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 100;
+}
+
+#h5 {
+    font-style: italic;
+    text-align: 0;
+}
+
+form {
+    text-align: center;
+}
+
+select {
+    height: 50px;
+    width: 55vh;
+    font-size: 17px;
+    font-weight: 10px;
+    text-align: left;
+    border-radius: 7px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+}
+
+input {
+    height: 50px;
+    width: 49vh;
+    font-size: 17px;
+    font-weight: 10px;
+    text-align: left;
+    border-radius: 7px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+}
+
+input[type="date"] {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13);
+}
+
+input:is(:focus, :valid) {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13);
+}
+
+select:is(:focus, :valid) {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13);
+}
+
+.privacy {
+    padding-top: 10px;
+}
+
+.ptext {
+    color: rgb(28, 28, 28);
+    font-size: 13.5px;
+    line-height: 20px;
+    padding-top: 5px;
+    padding-left: 6vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#btnsub {
+    border-radius: 5px;
+    width: 113px;
+    background-color: #2A609D;
+    color: aliceblue;
+    font-size: 17.5px;
+    font-weight: 600;
+    text-align: center;
+    transition: 0.2s all;
+}
+
+#btnsub:hover {
+    background-color: rgb(26, 25, 25);
+    cursor: pointer;
+}

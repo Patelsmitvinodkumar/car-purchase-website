@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+form {
+    text-align: center;
+    padding-left: 85vh;
+    padding-top: 5vh;
+}
+
+input {
+    height: 50px;
+    width: 252px;
+    font-size: 17px;
+    font-weight: 10px;
+    text-align: left;
+    border-radius: 7px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+}
+input:is(:focus, :valid) {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13);
+}
+#btnsub {
+    border-radius: 5px;
+    width: 113px;
+    background-color: #2A609D;
+    color: aliceblue;
+    font-size: 17.5px;
+    font-weight: 600;
+    text-align: center;
+    transition: 0.2s all;
+}
+
+#btnsub:hover {
+    background-color: rgb(26, 25, 25);
+    cursor: pointer;
+}

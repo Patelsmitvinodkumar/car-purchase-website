@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 55px;
+    position: fixed;
+    width: 100%;
+}
+
+ul .homen {
+    margin-left: 85vh;
+}
+
+ul h2 {
+    font-size: x-large;
+    margin-left: 20px;
+    padding-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-weight: bolder;
+    float: left;
+}
+
+ul li {
+    display: flex;
+    list-style-type: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(209, 209, 209);
+    padding: 0px 15px;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+/*       Home Section      */
+#home {
+    background-image: url("../Images/xc60.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+    z-index: -1;
+}
+
+.main {
+    align-items: center;
+    color: whitesmoke;
+    position: absolute;
+    top: 15%;
+    left: 40.5%;
+}
+
+.heading {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O;
+    font-size: 20vh;
+    font-weight: 400;
+}
+
+p {
+    color: whitesmoke;
+    font-size: 20px;
+    margin-left: -30px;
+    font-weight: 10px;
+}
+
+/*    model section    */
+#model {
+    background-color: whitesmoke;
+}
+
+.title {
+    text-align: center;
+    font-size: x-large;
+    padding-top: 20px;
+}
+
+/*     Book Drive Demo     */
+#book {
+    background-color: whitesmoke;
+}
+
+   */
+
+#h5 {
+    font-style: italic;
+    text-align: 0;
+}
+
+form {
+    text-align: center;
+}
+
+select {
+    height: 50px;
+    width: 55vh;
+    font-size: 17px;
+    font-weight: 10px;
+    text-align: left;
+    border-radius: 7px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+}
+
+input {
+    height: 50px;
+    width: 49vh;
+    font-size: 17px;
+    font-weight: 10px;
+    text-align: left;
+    border-radius: 7px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+}
+
+input[type="date"] {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13);
+}
+
+input:is(:focus, :valid) {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13);
+}
+
+select:is(:focus, :valid) {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13);
+}
+
+.privacy {
+    padding-top: 10px;
+}
+
+.ptext {
+    color: rgb(28, 28, 28);
+    font-size: 13.5px;
+    line-height: 20px;
+    padding-top: 5px;
+    padding-left: 6vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#btnsub {
+    border-radius: 5px;
+    width: 113px;
+    background-color: #2A609D;
+    color: aliceblue;
+    font-size: 17.5px;
+    font-weight: 600;
+    text-align: center;
+    transition: 0.2s all;
+}
+
+#btnsub:hover {
+    background-color: rgb(26, 25, 25);
+    cursor: pointer;
+}
+
+
+/*  contact us  */
+#contact {
+    background-color: whitesmoke;
+}
+
+.contacttext {
+    font-size: xx-large;
+    padding-top: 10px;
+}
+
+.piplodm {
+    padding-top: 35px;
+}
+
+.piplod {
+    font-size: 20px;
+    color: black;
+    padding-left: 5vh;
+    padding-top: 10px;
+}
+
+.map1 {
+    padding-left: 35vh;
+    padding-top: 10vh;
+}
+
+.interm {
+    padding-top: 35px;
+}
+
+.inter {
+    font-size: 20px;
+    color: black;
+    padding-left: 5vh;
+    padding-top: 20px;
+}
+
+.map2 {
+    padding-left: 40vh;
+    padding-top: 10vh;
+    padding-bottom: 10px;
+}
+
+/*  Footer  */
+#footer {
+    background-color: rgb(23, 23, 23);
+}
+
+.logof img {
+    height: 60px;
+    width: 60px;
+    padding-top: 20px;
+}
+
+.copy p {
+    font-size: 18px;
+    text-align: center;
+    color: rgb(157, 156, 156);
+    padding-top: 13px;
+}
+
+.a1a {
+    color: rgb(188, 188, 188);
+    font-size: 22px;
+    padding-left: 108px;
+    padding-top: 0px;
+}
+
+.a1m {
+    color: rgb(188, 188, 188);
+    font-size: 22px;
+    padding-left: 90px;
+    padding-top: 5px;
+}
+
+.a1t {
+    color: rgb(188, 188, 188);
+    padding-left: 90px;
+    padding-top: 17px;
+}
+
+.a2a {
+    color: rgb(188, 188, 188);
+    font-size: 22px;
+    padding-left: 216px;
+    padding-top: 12px;
+}
+
+.a2m {
+    color: rgb(188, 188, 188);
+    font-size: 22px;
+    padding-left: 180px;
+    padding-top: 5px;
+}
+
+.a2t {
+    color: rgb(188, 188, 188);
+    padding-left: 230px;
+    padding-top: 40px;
+}
+
+.logo {
+    padding-left: 220px;
+    font-size: 32px;
+    padding-top: 60px;
+}
